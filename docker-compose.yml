@@ -1,0 +1,10 @@
+version: '3'
+services:
+  symulator:
+    build: ./symulator
+    ports:
+      - "8080:8080"
+  klient:
+    build: ./klient
+    ports:
+      - "9000:9000"
